@@ -9,3 +9,7 @@
 ****![Capture](https://github.com/tanishakataria/PfFall23/assets/142868660/12314334-78c9-411a-b07b-420ef91c559b)
 ###question 3
 ****![Capture](https://github.com/tanishakataria/PfFall23/assets/142868660/a84d1d30-bffb-4a00-9c00-63b11df4dc8e)
+### question 1
+****![Screenshot (1)](https://github.com/tanishakataria/PfFall23/assets/142868660/e60abbff-9d15-4982-86c7-38f5b8293511)
+### question 7
+****![Screenshot (14)](https://github.com/tanishakataria/PfFall23/assets/142868660/03187035-17fc-4bcd-bc99-2f74201a7dc3)
