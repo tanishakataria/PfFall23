@@ -9,4 +9,6 @@
 #####question;4 hexagon has six side 
 ****![Capture](https://github.com/tanishakataria/PfFall23/assets/142868660/e27a39d6-7f22-46d6-bac1-e80d44fee02f)
 ###### question;5 average percntage 
-****
+****![Screenshot (20)](https://github.com/tanishakataria/PfFall23/assets/142868660/582fd6b5-adf9-4ee4-ad59-6167d75dec86)
+###### question ;7 temperature monitaring system 
+****![Screenshot (22)](https://github.com/tanishakataria/PfFall23/assets/142868660/93018d34-f881-4714-b572-706ba995d5e6)
