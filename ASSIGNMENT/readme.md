@@ -10,8 +10,6 @@
 ****![Screenshot (18)](https://github.com/tanishakataria/PfFall23/assets/142868660/ad01aa4e-cdaa-449b-a9a2-631dc00a4080)
 ######problem;6 sum digits 
 ![WhatsApp Image 2023-09-02 at 2 41 17 PM (1)](https://github.com/tanishakataria/PfFall23/assets/142868660/dfec934d-4862-4f93-995e-ec56025a631d)
-#######PROBLEM;7
-
 ########PROBLEM;8 Mean machine 
 ****![WhatsApp Image 2023-09-02 at 2 41 16 PM](https://github.com/tanishakataria/PfFall23/assets/142868660/12ce01e6-d9da-470b-be84-d716c91f0a4b)
 ######### Problem;9 prime number 
