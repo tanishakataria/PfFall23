@@ -1,0 +1,23 @@
+int t;
+    printf("enter the time (1-24)");
+    scanf  ("%d", &t);
+    printf("\n");
+    if(t>=5&&t<12)
+    {
+        printf("Good morning");
+    }
+   else if(t>=12&&t<18)
+    {
+        printf("Good evenng");
+    }
+     else  if (t>=18&&t<24)
+     {
+     printf("Good night");
+}
+    else {
+    printf("unknown time");
+    }
+    return 0;
+}
+    
+    
