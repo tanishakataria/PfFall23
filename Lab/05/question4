@@ -1,0 +1,34 @@
+  #include <stdio.h>
+
+int main() {
+    char op;
+    int a,b,sum,sub,div,mult;
+     printf("choose operation to perform:");
+    scanf("%c",&op);
+    printf("enter the first number:");
+    scanf("%d",&a);
+    printf("enter the second number:");
+    scanf("%d",&b);
+    switch (op){
+        case '+' :
+        sum = a+b;
+        printf("sum=%d",sum);
+        break;
+       case '-':
+        sub = a-b;
+        printf("sub=%d",sub);
+        break;
+         case '*':
+       mult = a*b;
+       printf("mult=%d",mult);
+       break;
+         case '/':
+          div = a/b;
+          printf("div=%d",div);
+         break;
+       default:
+    printf("invalid operator");
+    }
+    getc;
+    return 0;
+    }
