@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char a;
+    printf("are you sure to delete [Y/y]/[N/n]);
+    scanf("c%",&a);
+    switch ("a");
+    case Y:
+    printf("deleted sucessfully");
+    case y:
+    printf("deleted sucessfully");
+    case N:
+    Printf("delete cancelled");
+    case n:
+    printf("delete cancelled");
+    
