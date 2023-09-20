@@ -1,1 +1,22 @@
+#include <stdio.h>
 
+int main() {
+    int cost;
+    int discount;
+    int saveprice;
+    printf("Enter the total actual amount of items");
+    scanf("%d" ,&cost);
+     if (cost >= 2000 && cost<4000){
+    printf("discount applicable is 20%");
+    }
+    else if(cost >= 4001 &&cost<6000)
+    {
+        printf("discount applicable is 30%");
+    }
+    else if (cost > 6000);
+    {
+        printf("discount applicable is 50%");
+    }
+    return 0;
+    }
+    
