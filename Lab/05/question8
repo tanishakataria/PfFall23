@@ -1,0 +1,24 @@
+#include <stdio.h>
+  int main() {
+   int lightsensorvalue;
+   printf("Enter the value of lightsensor");
+   scanf("%d",&lightsensorvalue);
+  
+   if (lightsensorvalue > 500)
+   {
+    printf("adjusting brightness for sunny condition\n");   
+   }
+   
+  else if (lightsensorvalue >= 100 && lightsensorvalue <= 500)
+  {
+      printf("adjusting brightness for lighting condition\n");
+  }
+  else if (lightsensorvalue < 100){
+      printf("adjusting brightness for evening condition\n");
+  }
+  else{
+      printf("invalid light sensor value\n");
+  }
+  return 0;
+}
+   
