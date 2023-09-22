@@ -1,1 +1,13 @@
 
+int main() {
+  int num;
+  printf("enter the value of 8 number 0s aned 1s ");
+  scanf("%d08",&num);
+  int a;
+  a=num%10000;
+  int b;
+  b=num/10000;
+  printf("value of %04d%04d",a,b);
+  return 0;
+}
+  
