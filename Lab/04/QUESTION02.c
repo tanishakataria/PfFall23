@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h> 
-
  int main(){
-         int n;
+         int n,i=0,j=0;
         // Input the value of n 
          printf("Enter the value of n:");
          scanf("%d",&n);
-        int i=1,j=1;
-   for (i=0;i=n;i++){
-     for(j=0;j=i;j++){
+	 while(j<n){
+		 j = j+1;
+	 while(i < n){
+		 i = i+1;
      		printf("*");
-	}
-	printf("\n");
+	} 
+	        i = 0
+	       printf("\n");
     }
-     
+     return 0;
 } 
