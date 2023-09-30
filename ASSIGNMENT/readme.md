@@ -16,3 +16,6 @@
 ****![WhatsApp Image 2023-09-02 at 2 41 17 PM](https://github.com/tanishakataria/PfFall23/assets/142868660/63407393-0c6e-436a-a83b-8f998b8afbf7)
 ########## PROBLEM; 10 factorial 
 ****![WhatsApp Image 2023-09-02 at 2 41 18 PM](https://github.com/tanishakataria/PfFall23/assets/142868660/d017624b-cd06-4d0d-95eb-3e079a70e6e4)
+****problem7;
+[CamScanner 09-30-2023 13.48.pdf](https://github.com/tanishakataria/PfFall23/files/12774309/CamScanner.09-30-2023.13.48.pdf)
+
