@@ -1,7 +1,8 @@
+#include<stdio.h>
+int main(){
 int t;
-    printf("enter the time (1-24)");
-    scanf  ("%d", &t);
-    printf("\n");
+    printf("enter the t in 24 hours");
+    scanf("%d",&t);
     if(t>=5&&t<12)
     {
         printf("Good morning");
