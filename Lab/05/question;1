@@ -5,11 +5,10 @@ int main() {
    int ans;
    printf("enter the number:");
    scanf("%d",&n);
-   ans = n % 3;
-   if (ans == 0) {
+   if (n % 3 == 0) {
    printf("the number is multiply by 3");
    }
-   else if (ans != 0) {
+   else  {
    printf("the number is not multiply by 3");
    }
 return 0;
