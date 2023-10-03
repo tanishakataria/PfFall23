@@ -1,0 +1,17 @@
+   /** 
+* Programmer : Tanisha
+* Desc : practicing loops with dummy problem
+* Date :10/3/23
+#include <stdio.h>
+
+int main()
+{
+    int a[9],i;
+    printf("enter 9 integer numbers\n");
+    for(i=0; i < 9; i++)
+    scanf("%d",&a[i]);
+    printf("array elements are:\n");
+    for(i = 8; i >= 0; i--)
+    printf("%d\n",a[i]);
+    return 0;
+}
