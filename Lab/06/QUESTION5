@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    for(i = 0;i<=6;i++){
+        for (j =0; j<i*2; j++)
+        printf("%d",i);
+        
+    }
+    printf("\n");
+    if (i%2==0){
+        i++;
+    }
+    return 0;
+}
