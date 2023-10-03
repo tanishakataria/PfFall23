@@ -1,0 +1,31 @@
+   /** 
+* Programmer : Tanisha
+* Desc : practicing loops with dummy problem
+* Date :10/3/23
+#include <stdio.h>
+
+int main()
+{
+ int ms=21,u,c;
+ while (1)
+ {
+     printf("\nNumber of match stikes left = %d\n",ms);
+     printf("pick up the ms btw (1 to 4):");
+     scanf("%d",&u);
+     if (u > 4 || u < 1)
+     continue;
+     ms = ms - u;
+         printf("number of matches left = %d\n",ms);
+     c = 5 - u;
+     printf("computer picked up %d\n",c);
+     ms= ms - c ;
+     if (ms==1)
+         { 
+             printf("\nNumber of matches left = %d\n",ms);
+         printf("you lose the game\n");
+         break;
+         }
+ }
+ return 0;
+         
+ }
