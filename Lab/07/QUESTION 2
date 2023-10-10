@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{
+int n;
+printf("enter the number");
+scanf("%d",&n);
+int i;
+int ans;
+int rem;
+while(n>0){
+    rem = n%10;
+    i = n/10;
+    n = i;
+    ans = ans+rem;
+    
+}
+ans = ans + n;
+printf("the sum of digit number is %d ",ans);
+
+
+
+    return 0;
+}
