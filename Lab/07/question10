@@ -1,0 +1,23 @@
+#include<stdio.h>
+int sum(int arr[100],int size, int s){
+    int i,j,a=0;//initializing variables
+    for(i=0;i<size;i++)//outer loop, it works is to continue inner loop size times
+    {
+        for(j=i;j<size;j++)//inner loop, since it needs continous subarray, so it increments every time and adding all the elements starting from i till sums to s
+        {
+            a += arr[j];
+            if(a==s){//checning condition
+                printf(" %d\n",arr[j]);
+                printf("The Elements from Index %d to %d when summed results in the output of %d.",i,j,a);
+                return;
+            }
+        }//end j loop
+        a=0;
+    }//end i loop
+}
+int main(){
+    int arr[5]= {1, 2, 3, 7, 5};
+    int size = 5;
+    int s = 12;
+    sum(arr,size,s);
+}//end main
