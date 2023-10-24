@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+float calculate(float a,float b,char operator){
+
+        switch (operator){
+            case'+':
+            result=add(num1,num2);
+            break;
+            case'-':
+            result=subtract(num1,num2);
+            break;
+            case('*'):
+            result=multiply(num1,num2);
+            break;
+            case('/'):
+            if(b!=0){
+                return a/b;
+            } else {
+                printf("error division by a zero\n");
+                return 0;
+            }
+        }
+        int main(){
+            float num1,num2,result;
+            char operator;
+            printf("enter the two number");
+            scanf("%f %f",&num1,&num2);
+            printf("enter an operator(+,*,/,-)");
+            scanf("%c",&operator);
+            result=calculate(num1,num2,operator);
+        printf("result:2f\n",result);
+        return 0;
+        }
