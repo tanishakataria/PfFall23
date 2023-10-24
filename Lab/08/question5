@@ -1,1 +1,28 @@
 
+
+#include <stdio.h>
+int decidecarusage(int carnumber, int dayofweek){
+    if((carnumber%2==0 && dayofweek % 2==0)||(carnumber % 2!=0 && dayofweek % 2!=0)){
+        return 1;
+        
+    }
+    else{
+        return 0;
+    }
+    }
+int main()
+{
+    int carnumber,dayofweek;
+    printf("enter the numeric part of your car's number");
+    scanf("%d",&carnumber);
+    printf("enter the day of week (1to7)");
+    scanf("%d",&dayofweek);
+int shouldusecar=decidecarusage(carnumber,dayofweek);
+if (shouldusecar){
+    printf("you should use car on this day\n");
+}
+else{
+    printf("you should not use car on this day\n");
+}
+    return 0;
+}
