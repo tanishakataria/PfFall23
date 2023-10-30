@@ -1,0 +1,36 @@
+
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main (){
+    int n, rem, q;
+    int presistence = 0;
+    char a[5];
+    while (strcmp(a ,"EOF") != 0){ //loop for taking inputs of number until stopped by user
+    printf ("Enter the number \n");
+    scanf ("%d", &n);
+         if (n > 10){ //making sure the number is not already an integer and hence presistence is zero
+              do { //outer loop for finding the presistence - only add 1 when the multiplication of digits of the no is not less than 10 - until the number is less than 10 
+                 int mul = 1; 
+                     do { //inner loop for calculating the multiplication of the digits of the no of the integer 
+                       //when number is divided by 10 the remainder gives the last digit and the quotient gives the integer w/o the last digit
+                        rem = n % 10; 
+                        q = n / 10;
+                        n = q; //making the quoteint the number
+                        mul = mul * rem;
+                     } while (n > 10);
+                 mul = mul * n;
+                 n = mul; //making the multiple from outer loop the number to again find the multiplication of the digits of the no until the number is less than 10
+                 printf ("The number after finding the digit multiple is %d \n", n);
+                 presistence = presistence + 1; 
+              } while (n > 10);
+         }
+     printf ("The integer of the multiple of the digits of the input number is %d and the presistence is %d \n",n,presistence);
+     printf ("Type EOF to stop");
+     getchar();
+     gets(a);
+     }
+
+    return 0;
+}//end main
