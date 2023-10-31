@@ -1,1 +1,39 @@
 
+#include <stdio.h>
+
+int main()
+{
+  int N;
+printf("enter the number");
+scanf("%d",&N);
+int arr[N];
+char arr2[N];
+ long long int arr3[N];
+ for(int i=0;i<N;i++){
+  printf("enter the element of int array\n");
+  scanf("%d",&arr[i]);
+  }
+   for(int i=0;i<N;i++){
+   printf("enter the element of char array\n");
+  scanf("%c",&arr2[i]);
+   }
+   for(int i=0;i<N;i++){
+   printf("enter the element of long long int array\n");
+  scanf("%lld",&arr3[i]);
+  
+ }
+ int a1=arr;
+ char a2=arr2;
+ long long int *a3=arr3;
+ for(in i=0;i<5;i++);
+  for(int i=0;i<N;i++){
+  printf("\nelement of int array\n");
+  printf("%d",arr[i]);
+   printf("\nelement of char array\n");
+  printf("%c",arr2[i]);
+   printf("\nelement of long long int array\n");
+  printf("%lld",arr3[i]);
+  
+    return 0;
+}
+
