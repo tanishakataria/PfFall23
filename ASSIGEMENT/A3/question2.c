@@ -1,3 +1,9 @@
+/**
+ * Programmer: Muhammed Owais 
+ * Desc: Shift numbers in array by d location to the left
+ * Date: 10/10/2023
+ * Roll-No: 23K-0047
+ */ 
 #include <stdio.h>
 #include <time.h>
 #include <stdbool.h>
