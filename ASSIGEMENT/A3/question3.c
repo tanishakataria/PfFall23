@@ -2,7 +2,7 @@
  * Programmer: Tanisha
  * Desc: Data from two file combined and stored in file
  * Date: 06/12/2023
- * Roll-No: 23K-0047
+ * Roll-No: 23K-0067
  */ 
 #include <stdio.h>
 #include <string.h>
@@ -44,7 +44,7 @@ int main(){
 	fscanf(dep, "%s", &temp);
 	strcat(newarr, " ");
 	strcat(newarr, temp);
-	fprintf(comb, "Name: Muhammed Owais\nId: 23K-0047\n");
+	fprintf(comb, "Name: Tanisha\nId: 23K-0067\n");
 	fputs(newarr, comb);
 	fprintf(comb, "\n");
 }
