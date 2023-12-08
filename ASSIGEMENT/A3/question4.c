@@ -2,7 +2,7 @@
  * Programmer: Tanisha 
  * Desc: Prints Max and Total Salaries of Departments
  * Date: 05/12/2023
- * Roll-No: 23K-0047
+ * Roll-No: 23K-0067
  */ 
 #include <stdio.h>
 #include <string.h>
@@ -110,7 +110,7 @@ int main(){
 		{6, "Lead", "2016-06-11 00:00:00"},
 		{3, "Lead", "2016-06-11 00:00:00"}
 	};
-	printf("Name: Muhammed Owais\nId: 23K-0047\n");
+	printf("Name: Tanisha\nId: 23K-0067\n");
 	display(worker, 1);
 	display(worker, 2);
 }
