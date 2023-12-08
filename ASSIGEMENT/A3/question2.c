@@ -38,7 +38,7 @@ int main(){
 	char roles[][15] = {"Director", "Executive", "Manager", "Employee", "Trainee"}; 
 	// 4 departments array created
 	department data[4];
-	printf("Name: Muhammed Owais\nId: 23K-0047\n");
+	printf("Name: Tanisha\nId: 23K-0067\n");
 	// to fill the data array
 	fill(names, roles, data);
 	// to output the best department
