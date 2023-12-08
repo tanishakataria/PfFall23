@@ -1,5 +1,5 @@
 /**
- * Programmer: Muhammed Owais 
+ * Programmer: tanisha
  * Desc: Printing man in hat
  * Date: 16/10/2023
  * Roll-No: 23K-0047
