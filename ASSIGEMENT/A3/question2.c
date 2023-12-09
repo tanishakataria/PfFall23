@@ -2,7 +2,7 @@
  * Programmer: tanisha
  * Desc: Department Data Stored Using Struct
  * Date: 26/11/2023
- * Roll-No: 23K-0047
+ * Roll-No: 23K-0067
  */ 
 #include <stdio.h>
 #include <string.h>
