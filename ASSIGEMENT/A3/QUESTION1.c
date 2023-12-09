@@ -2,7 +2,7 @@
  * Programmer: tanisha
  * Desc: Max Subset Matrix in 2x2 or 4x4 or 8x8
  * Date: 26/11/2023
- * Roll-No: 23K-0047
+ * Roll-No: 23K-0067
  */ 
 #include <stdio.h>
 #include <stdlib.h>
