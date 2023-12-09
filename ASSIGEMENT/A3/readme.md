@@ -11,6 +11,7 @@ QUESTION 2;
 ****<img width="540" alt="Screenshot 2023-12-08 233240" src="https://github.com/tanishakataria/PfFall23/assets/142868660/329fdf3b-6cec-4a7b-af0f-96c6dbc3a860">
 question 3;
 ****
+<img width="896" alt="Screenshot 2023-12-09 113500" src="https://github.com/tanishakataria/PfFall23/assets/142868660/b52254ff-e4a6-4d1f-9297-f40822a543f8">
 
 
 QUESTION 4 
